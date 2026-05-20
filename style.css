@@ -525,3 +525,34 @@ body{
     width:350px;
     height:350px;
   }
+  
+  .education-box{
+  background:#1e293b;
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+  transition:0.4s;
+  box-shadow:0 0 20px rgba(56,189,248,0.2);
+}
+
+.education-box:hover{
+  transform:translateY(-10px);
+  background:#334155;
+}
+
+.education-box h3{
+  color:#38bdf8;
+  font-size:28px;
+  font-weight:bold;
+}
+
+.education-box h5{
+  color:#cbd5e1;
+  margin-top:10px;
+}
+
+.education-status{
+  color:#fbbf24;
+  font-weight:bold;
+  margin-top:10px;
+}
